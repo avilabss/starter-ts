@@ -1,7 +1,7 @@
-export class UpdateMeError extends Error {
+export class CodeError extends Error {
   message: string
 
-  constructor(message: string, code?: number, cause?: any) {
+  constructor(message: string) {
     super()
     this.message = message
   }

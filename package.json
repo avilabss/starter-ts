@@ -1,17 +1,16 @@
 {
   "name": "@avilabs/starter-ts",
-  "version": "1.0.0",
-  "description": "UPDATE ME",
+  "version": "0.1.0",
+  "description": "starter-ts",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
     "build": "npx tsc",
     "test": "npx jest",
-    "start": "node ./lib/index.js",
     "dev": "npm run build && npm run start | npx pino-pretty"
   },
   "keywords": [
-    "update-me"
+    "starter-ts"
   ],
   "author": "contact@avilabs.net",
   "license": "UNLICENSED",
@@ -35,6 +34,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "dotenv": "^16.4.4",
     "pino": "^8.16.2"
   }
 }

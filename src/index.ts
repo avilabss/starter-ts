@@ -1,7 +1,5 @@
-import { logger } from './logger'
+export * from './Hello'
 
-async function main() {
-  logger.info('Hello World!')
-}
-
-main()
+export * from './logger'
+export * from './types'
+export * from './exceptions'
