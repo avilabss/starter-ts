@@ -1,10 +1,10 @@
 {
     "compilerOptions": {
-        "target": "esnext",
-        "module": "nodenext",
-        "moduleResolution": "nodenext",
-        "lib": ["esnext"],
-        // "lib": ["esnext", "dom"],
+        "target": "ESNext",
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "lib": ["ESNext"],
+        // "lib": ["ESNext", "DOM"],
         "outDir": "lib",
         "rootDir": "src",
         "strict": true,

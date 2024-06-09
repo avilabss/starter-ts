@@ -1,8 +1,9 @@
+import { describe, it, expect } from 'vitest'
 import { Hello } from '../src/index'
 
 describe('Run Hello', () => {
-    test(
-        'running hello',
+    it(
+        'should run hello',
         () => {
             const hello = new Hello('world')
             const res = hello.run()
